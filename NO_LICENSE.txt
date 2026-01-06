@@ -1,0 +1,6 @@
+NO LICENSE - All Rights Reserved.
+
+This repository is provided for research prototype purposes. Do not reuse, redistribute or deploy
+
+the code or artifacts without explicit written permission from the repository owner.
+

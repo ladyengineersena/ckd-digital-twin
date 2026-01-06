@@ -1,0 +1,13 @@
+seed: 42
+n_patients: 500
+lgbm:
+  n_estimators: 400
+  learning_rate: 0.05
+  max_depth: 6
+lstm:
+  seq_hidden: 64
+  tab_hidden: 32
+  epochs: 20
+  batch_size: 32
+  lr: 0.001
+

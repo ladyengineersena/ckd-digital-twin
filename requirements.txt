@@ -1,0 +1,14 @@
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+lightgbm>=3.3
+torch>=1.10
+joblib
+pyyaml
+fastapi
+uvicorn[standard]
+matplotlib
+seaborn
+pytest
+pydantic
+
