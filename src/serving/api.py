@@ -7,7 +7,8 @@ app = FastAPI(title="CKD Digital Twin API")
 
 cfg_path = os.path.join("configs","training_config.yaml")
 if os.path.exists(cfg_path):
-    cfg = yaml.safe_load(open(cfg_path))
+    with open(cfg_path, 'r') as f:
+        cfg = yaml.safe_load(f)
 else:
     cfg = {}
 
