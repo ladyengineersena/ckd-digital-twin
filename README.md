@@ -52,7 +52,7 @@ python -m src.pipelines.train_pipeline --mode lstm --data_dir data/synthetic --o
 
 # 5. Run simulator demo (from notebooks or script)
 
-python -m src.simulator.twin --data_dir data/synthetic --model outputs/lstm_model.pt --patient P0001 --scenario blood_pressure_control
+python -m src.simulator.twin --data_dir data/synthetic --model outputs/lstm_model.pt --patient P0001 --intervention start_acei
 
 # 6. Run API
 
